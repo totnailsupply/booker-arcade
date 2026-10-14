@@ -1,0 +1,5 @@
+{
+  "//": "Lets `node --test scripts/test/` work on Node 22 (a directory argument resolves to this main file, which imports every *.test.mjs here).",
+  "type": "module",
+  "main": "all-tests.mjs"
+}

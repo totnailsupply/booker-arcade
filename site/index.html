@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Booker Arcade</title>
+  <meta name="description" content="Five free pixel-art games starring Booker and Soba. Play in your browser on a phone, tablet, or computer.">
+  <meta name="theme-color" content="#1b1220">
+  <meta property="og:title" content="Booker Arcade">
+  <meta property="og:description" content="Five free pixel-art games starring Booker and Soba.">
+  <meta property="og:image" content="thumbs/booker-run.jpg">
+  <link rel="icon" href="thumbs/booker-run.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #1b1220;
+      --bg-2: #2a1b2e;
+      --card: #2f2133;
+      --card-edge: #4a3450;
+      --text: #f6ead8;
+      --muted: #c9b6a6;
+      --gold: #f5b13d;
+      --gold-deep: #c9771e;
+      --focus: #ffe08a;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(ellipse at 50% -10%, #5a2a3a 0%, transparent 60%),
+        linear-gradient(180deg, var(--bg-2), var(--bg) 40%);
+      background-color: var(--bg);
+      color: var(--text);
+      font: 16px/1.5 "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: max(28px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) 48px max(16px, env(safe-area-inset-left));
+    }
+    header { text-align: center; margin: 12px 0 28px; }
+    h1 {
+      font: 400 clamp(26px, 7vw, 48px)/1.2 "Press Start 2P", monospace;
+      margin: 0 0 14px;
+      color: var(--gold);
+      text-shadow: 0 4px 0 var(--gold-deep), 0 8px 0 #000a;
+      letter-spacing: 1px;
+    }
+    .tagline { margin: 0 auto; max-width: 560px; color: var(--muted); font-size: 17px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      background: var(--card);
+      border: 3px solid var(--card-edge);
+      border-radius: 14px;
+      overflow: hidden;
+      color: inherit;
+      text-decoration: none;
+      box-shadow: 0 6px 0 #0006;
+      transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease;
+    }
+    .card:hover { transform: translateY(-3px); border-color: var(--gold); box-shadow: 0 9px 0 #0006; }
+    .card:active { transform: translateY(2px); box-shadow: 0 3px 0 #0006; }
+    .card:focus-visible { outline: 4px solid var(--focus); outline-offset: 3px; }
+    .thumb {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      image-rendering: pixelated;
+      background: #000;
+    }
+    .thumb.portrait { object-position: 50% 12%; }
+    .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+    h2 { margin: 0; font-size: 21px; font-weight: 800; line-height: 1.25; }
+    .desc { margin: 0; color: var(--muted); flex: 1; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+    .tag {
+      font-size: 13px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: #ffffff14;
+      border: 1px solid #ffffff22;
+    }
+    .play {
+      margin-top: 6px;
+      align-self: flex-start;
+      font: 400 12px/1 "Press Start 2P", monospace;
+      background: var(--gold);
+      color: #2a1606;
+      padding: 10px 14px;
+      border-radius: 8px;
+      box-shadow: 0 3px 0 var(--gold-deep);
+    }
+    .tips {
+      margin: 36px auto 0;
+      max-width: 720px;
+      background: #ffffff0d;
+      border: 1px solid #ffffff1f;
+      border-radius: 14px;
+      padding: 18px 20px;
+    }
+    .tips h3 { margin: 0 0 8px; font-size: 18px; }
+    .tips ul { margin: 0; padding-left: 20px; color: var(--muted); }
+    .tips li + li { margin-top: 6px; }
+    footer { text-align: center; color: #9c8a80; font-size: 14px; margin-top: 28px; }
+    @media (prefers-reduced-motion: reduce) { .card { transition: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>BOOKER ARCADE</h1>
+      <p class="tagline">Five pixel-art games starring Booker and Soba. Tap a game to play. They run in your browser, so there's nothing to install.</p>
+    </header>
+
+    <section class="grid" aria-label="Games">
+      <a class="card" href="booker-run/">
+        <img class="thumb" src="thumbs/booker-run.jpg" alt="Booker Run title screen: Booker running toward a steak at sunset" width="640" height="360">
+        <div class="body">
+          <h2>Booker Run</h2>
+          <p class="desc">Run, jump, and dodge your way through six levels to reach the steak. Hold to jump higher.</p>
+          <div class="tags"><span class="tag">Platformer</span><span class="tag">One button</span><span class="tag">Hold phone sideways</span></div>
+          <span class="play">PLAY ▶</span>
+        </div>
+      </a>
+
+      <a class="card" href="backyard-brawl/">
+        <img class="thumb" src="thumbs/backyard-brawl.jpg" alt="Booker's Backyard Brawl title screen: Booker in the backyard with a cat, crow, and raccoon on the fence" width="640" height="360">
+        <div class="body">
+          <h2>Booker's Backyard Brawl</h2>
+          <p class="desc">Defend the yard from cats, squirrels, crows, and raccoons. Survive ten waves and beat two bosses.</p>
+          <div class="tags"><span class="tag">Arena survival</span><span class="tag">Hold phone sideways</span></div>
+          <span class="play">PLAY ▶</span>
+        </div>
+      </a>
+
+      <a class="card" href="soba-tower/">
+        <img class="thumb portrait" src="thumbs/soba-tower.jpg" alt="Soba Tower title screen: Soba at the foot of a noodle-house tower" width="405" height="720">
+        <div class="body">
+          <h2>Soba Tower</h2>
+          <p class="desc">Soba bounces on her own. Steer her up the noodle-house tower and ring the bell on the roof.</p>
+          <div class="tags"><span class="tag">Climber</span><span class="tag">Hold phone upright</span></div>
+          <span class="play">PLAY ▶</span>
+        </div>
+      </a>
+
+      <a class="card" href="soba-guard/">
+        <img class="thumb" src="thumbs/soba-guard.jpg" alt="Soba Guard title screen: Soba guarding the garden at night" width="640" height="360">
+        <div class="body">
+          <h2>Soba Guard</h2>
+          <p class="desc">Place kitchen-crew defenders on the garden grid and stop the hungry critters coming up the alley.</p>
+          <div class="tags"><span class="tag">Lane defense</span><span class="tag">Hold phone sideways</span></div>
+          <span class="play">PLAY ▶</span>
+        </div>
+      </a>
+
+      <a class="card" href="lucky-paw-casino/">
+        <img class="thumb" src="thumbs/lucky-paw-casino.jpg" alt="Lucky Paw Casino lobby with Plinko, Blackjack, Craps, Roulette, and Slots" width="640" height="360">
+        <div class="body">
+          <h2>Lucky Paw Casino</h2>
+          <p class="desc">Plinko, Blackjack, Craps, Roulette, and Slots, with Booker as the dealer. Pretend chips only, no real money.</p>
+          <div class="tags"><span class="tag">5 casino games</span><span class="tag">Hold phone sideways</span></div>
+          <span class="play">PLAY ▶</span>
+        </div>
+      </a>
+    </section>
+
+    <section class="tips" aria-labelledby="tips-title">
+      <h3 id="tips-title">Tips</h3>
+      <ul>
+        <li>Turn the sound on. Every game has music, and the speaker button or the M key mutes it.</li>
+        <li>On a phone, turn off the silent switch or ring/silent mode to hear the sound.</li>
+        <li>Your best scores and unlocks save in the browser on this device.</li>
+        <li>To get back to this menu, use the browser's Back button.</li>
+        <li>To keep the arcade on your phone, open your browser's Share menu and choose Add to Home Screen.</li>
+      </ul>
+    </section>
+
+    <footer>Made with Phaser 4. Starring Booker and Soba.</footer>
+  </main>
+</body>
+</html>

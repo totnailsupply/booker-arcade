@@ -1,0 +1,132 @@
+{
+  "booker": {
+    "file": "booker.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 8,
+    "animations": {
+      "idle": [
+        0,
+        1
+      ],
+      "run": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "hurt": [
+        6
+      ],
+      "dash": [
+        7
+      ]
+    }
+  },
+  "cat": {
+    "file": "cat.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 2,
+    "animations": {
+      "walk": [
+        0,
+        1
+      ]
+    }
+  },
+  "squirrel": {
+    "file": "squirrel.png",
+    "frameWidth": 20,
+    "frameHeight": 20,
+    "frames": 2,
+    "animations": {
+      "run": [
+        0,
+        1
+      ]
+    }
+  },
+  "crow": {
+    "file": "crow.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 2,
+    "animations": {
+      "flap": [
+        0,
+        1
+      ]
+    }
+  },
+  "raccoon": {
+    "file": "raccoon.png",
+    "frameWidth": 28,
+    "frameHeight": 28,
+    "frames": 2,
+    "animations": {
+      "walk": [
+        0,
+        1
+      ]
+    }
+  },
+  "skunk": {
+    "file": "skunk.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 2,
+    "animations": {
+      "walk": [
+        0,
+        1
+      ]
+    }
+  },
+  "boss-cat": {
+    "file": "boss-cat.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "frames": 2,
+    "animations": {
+      "walk": [
+        0,
+        1
+      ]
+    }
+  },
+  "boss-vac": {
+    "file": "boss-vac.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "frames": 2,
+    "animations": {
+      "move": [
+        0,
+        1
+      ]
+    }
+  },
+  "items": {
+    "file": "items.png",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "frames": 12
+  },
+  "icons": {
+    "file": "icons.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 16
+  },
+  "arena": {
+    "file": "arena.png",
+    "width": 768,
+    "height": 512
+  },
+  "title": {
+    "file": "title.png",
+    "width": 480,
+    "height": 270
+  }
+}

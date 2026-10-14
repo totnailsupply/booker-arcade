@@ -1,0 +1,47 @@
+{
+ "l2-bg-far": {
+  "file": "l2-bg-far.png",
+  "width": 480,
+  "height": 270
+ },
+ "l2-bg-mid": {
+  "file": "l2-bg-mid.png",
+  "width": 480,
+  "height": 270
+ },
+ "l2-bg-near": {
+  "file": "l2-bg-near.png",
+  "width": 480,
+  "height": 270
+ },
+ "l2-ground": {
+  "file": "l2-ground.png",
+  "width": 32,
+  "height": 32
+ },
+ "l2-pit": {
+  "file": "l2-pit.png",
+  "width": 32,
+  "height": 32
+ },
+ "l2-platform": {
+  "file": "l2-platform.png",
+  "width": 32,
+  "height": 16
+ },
+ "l2-bollard": {
+  "file": "l2-bollard.png",
+  "width": 16,
+  "height": 20
+ },
+ "l2-tires": {
+  "file": "l2-tires.png",
+  "width": 24,
+  "height": 32
+ },
+ "l2-crab": {
+  "file": "l2-crab.png",
+  "width": 20,
+  "height": 12
+ }
+}

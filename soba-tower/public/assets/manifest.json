@@ -1,0 +1,211 @@
+{
+  "soba": {
+    "file": "soba.png",
+    "frameWidth": 40,
+    "frameHeight": 40,
+    "frames": 12,
+    "animations": {
+      "idle": [
+        0,
+        1
+      ],
+      "crouch": [
+        2
+      ],
+      "rise": [
+        3
+      ],
+      "apex": [
+        4
+      ],
+      "fall": [
+        5,
+        6
+      ],
+      "steer": [
+        7
+      ],
+      "hurt": [
+        8
+      ],
+      "celebrate": [
+        9,
+        10
+      ],
+      "sit": [
+        11
+      ]
+    }
+  },
+  "plat-beam": {
+    "file": "plat-beam.png",
+    "frameWidth": 8,
+    "frameHeight": 12,
+    "frames": 3,
+    "animations": {
+      "left": [
+        0
+      ],
+      "middle": [
+        1
+      ],
+      "right": [
+        2
+      ]
+    }
+  },
+  "plat-slider": {
+    "file": "plat-slider.png",
+    "frameWidth": 8,
+    "frameHeight": 12,
+    "frames": 3,
+    "animations": {
+      "left": [
+        0
+      ],
+      "middle": [
+        1
+      ],
+      "right": [
+        2
+      ]
+    }
+  },
+  "plat-crumble": {
+    "file": "plat-crumble.png",
+    "frameWidth": 8,
+    "frameHeight": 12,
+    "frames": 3,
+    "animations": {
+      "left": [
+        0
+      ],
+      "middle": [
+        1
+      ],
+      "right": [
+        2
+      ]
+    }
+  },
+  "plat-crumble-cracked": {
+    "file": "plat-crumble-cracked.png",
+    "frameWidth": 8,
+    "frameHeight": 12,
+    "frames": 3,
+    "animations": {
+      "left": [
+        0
+      ],
+      "middle": [
+        1
+      ],
+      "right": [
+        2
+      ]
+    }
+  },
+  "plat-lift": {
+    "file": "plat-lift.png",
+    "frameWidth": 8,
+    "frameHeight": 12,
+    "frames": 3,
+    "animations": {
+      "left": [
+        0
+      ],
+      "middle": [
+        1
+      ],
+      "right": [
+        2
+      ]
+    }
+  },
+  "spring": {
+    "file": "spring.png",
+    "frameWidth": 16,
+    "frameHeight": 10,
+    "frames": 2,
+    "animations": {
+      "compressed": [
+        0
+      ],
+      "extended": [
+        1
+      ]
+    }
+  },
+  "crow": {
+    "file": "crow.png",
+    "frameWidth": 24,
+    "frameHeight": 16,
+    "frames": 2,
+    "animations": {
+      "fly": [
+        0,
+        1
+      ]
+    }
+  },
+  "roof-tile": {
+    "file": "roof-tile.png",
+    "width": 14,
+    "height": 10
+  },
+  "chimes": {
+    "file": "chimes.png",
+    "width": 16,
+    "height": 24
+  },
+  "treat": {
+    "file": "treat.png",
+    "width": 12,
+    "height": 12
+  },
+  "bell": {
+    "file": "bell.png",
+    "width": 48,
+    "height": 48
+  },
+  "cushion": {
+    "file": "cushion.png",
+    "width": 40,
+    "height": 12
+  },
+  "best-flag": {
+    "file": "best-flag.png",
+    "width": 16,
+    "height": 24
+  },
+  "paw": {
+    "file": "paw.png",
+    "width": 10,
+    "height": 10
+  },
+  "wall": {
+    "file": "wall.png",
+    "width": 192,
+    "height": 192
+  },
+  "skyline": {
+    "file": "skyline.png",
+    "width": 270,
+    "height": 160
+  },
+  "street": {
+    "file": "street.png",
+    "width": 270,
+    "height": 48
+  },
+  "roof": {
+    "file": "roof.png",
+    "width": 270,
+    "height": 64
+  },
+  "title": {
+    "file": "title.png",
+    "width": 240,
+    "height": 100
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "soba-guard",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "verify": "node scripts/verify-runtime.mjs",
+    "sim": "node scripts/sim-level.mjs --level 1 --bot steamers --seeds 5",
+    "iterate": "node scripts/iterate-client.js --url 'http://localhost:3003/?skip=1&wave=10&coins=300' --actions-file scripts/example-actions.json --iterations 3 --screenshot-dir output/iterate"
+  },
+  "dependencies": {
+    "phaser": "4.2.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "vite": "^7.3.1"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "soba-neutral": {
+    "file": "soba/soba-neutral.png",
+    "pixel": true,
+    "w": 256,
+    "h": 256
+  },
+  "soba-happy": {
+    "file": "soba/soba-happy.png",
+    "pixel": true,
+    "w": 256,
+    "h": 256
+  },
+  "soba-sad": {
+    "file": "soba/soba-sad.png",
+    "pixel": true,
+    "w": 256,
+    "h": 256
+  },
+  "soba-nervous": {
+    "file": "soba/soba-nervous.png",
+    "pixel": true,
+    "w": 256,
+    "h": 256
+  },
+  "soba-smug": {
+    "file": "soba/soba-smug.png",
+    "pixel": true,
+    "w": 256,
+    "h": 256
+  },
+  "duo-hero": {
+    "file": "duo-hero.png",
+    "pixel": true,
+    "w": 780,
+    "h": 512
+  },
+  "title-logo": {
+    "file": "title-logo.png",
+    "pixel": false,
+    "w": 960,
+    "h": 320
+  },
+  "bg-lobby": {
+    "file": "bg/bg-lobby.png",
+    "pixel": true,
+    "w": 1280,
+    "h": 720
+  },
+  "bg-plinko": {
+    "file": "bg/bg-plinko.png",
+    "pixel": true,
+    "w": 1280,
+    "h": 720
+  },
+  "bg-blackjack": {
+    "file": "bg/bg-blackjack.png",
+    "pixel": true,
+    "w": 1280,
+    "h": 720
+  },
+  "bg-craps": {
+    "file": "bg/bg-craps.png",
+    "pixel": true,
+    "w": 1280,
+    "h": 720
+  },
+  "bg-roulette": {
+    "file": "bg/bg-roulette.png",
+    "pixel": true,
+    "w": 1280,
+    "h": 720
+  },
+  "bg-slots": {
+    "file": "bg/bg-slots.png",
+    "pixel": true,
+    "w": 1280,
+    "h": 720
+  },
+  "icon-plinko": {
+    "file": "icons/icon-plinko.png",
+    "pixel": true,
+    "w": 160,
+    "h": 160
+  },
+  "icon-blackjack": {
+    "file": "icons/icon-blackjack.png",
+    "pixel": true,
+    "w": 160,
+    "h": 160
+  },
+  "icon-craps": {
+    "file": "icons/icon-craps.png",
+    "pixel": true,
+    "w": 160,
+    "h": 160
+  },
+  "icon-roulette": {
+    "file": "icons/icon-roulette.png",
+    "pixel": true,
+    "w": 160,
+    "h": 160
+  },
+  "icon-slots": {
+    "file": "icons/icon-slots.png",
+    "pixel": true,
+    "w": 160,
+    "h": 160
+  },
+  "sym-wild": {
+    "file": "slots/sym-wild.png",
+    "pixel": true,
+    "w": 128,
+    "h": 128
+  },
+  "sym-scatter": {
+    "file": "slots/sym-scatter.png",
+    "pixel": true,
+    "w": 128,
+    "h": 128
+  },
+  "sym-booker": {
+    "file": "slots/sym-booker.png",
+    "pixel": true,
+    "w": 128,
+    "h": 128
+  },
+  "sym-soba": {
+    "file": "slots/sym-soba.png",
+    "pixel": true,
+    "w": 128,
+    "h": 128
+  },
+  "sym-bone": {
+    "file": "slots/sym-bone.png",
+    "pixel": true,
+    "w": 128,
+    "h": 128
+  },
+  "sym-ball": {
+    "file": "slots/sym-ball.png",
+    "pixel": true,
+    "w": 128,
+    "h": 128
+  },
+  "sym-hydrant": {
+    "file": "slots/sym-hydrant.png",
+    "pixel": true,
+    "w": 128,
+    "h": 128
+  },
+  "sym-bowl": {
+    "file": "slots/sym-bowl.png",
+    "pixel": true,
+    "w": 128,
+    "h": 128
+  }
+}

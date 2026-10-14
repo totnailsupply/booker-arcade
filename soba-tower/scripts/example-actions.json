@@ -1,0 +1,13 @@
+{
+  "_comment": "Soba Tower QA run. Use URL http://localhost:3001/?lives=1 . The game steps exactly 1/60 s per scripted frame (window.advanceTime test clock in main.js), so the run is deterministic and all 3 iterations are identical. Start from the title (or retry from Results) with ArrowRight, steer left onto the garden trellis, let it climb itself to 18 m (score 180), then tap right so Soba steps off the trellis into the empty drop zone (x 114-148) and falls below the screen: with ?lives=1 that is game over (mode game_over, Results screen). The tap works for 6-16 frames at any start offset (node sim). 491 frames per iteration.",
+  "steps": [
+    { "_comment": "Title (or Results) settles", "buttons": [], "frames": 20 },
+    { "_comment": "Any arrow starts the climb / retries", "buttons": ["right"], "frames": 3 },
+    { "_comment": "Fade in; Soba bounces on the street (score stays 0)", "buttons": [], "frames": 45 },
+    { "_comment": "Steer left onto the trellis", "buttons": ["left"], "frames": 12 },
+    { "_comment": "The trellis climbs itself to 18 m", "buttons": [], "frames": 220 },
+    { "_comment": "Tap right: step off the trellis into the drop zone", "buttons": ["right"], "frames": 11 },
+    { "_comment": "Fall below the screen -> game over -> Results", "buttons": [], "frames": 120 },
+    { "_comment": "Results screen settles", "buttons": [], "frames": 60 }
+  ]
+}

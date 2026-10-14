@@ -1,0 +1,1 @@
+{"booker": {"file": "booker.png", "frameWidth": 48, "frameHeight": 36, "frames": 18, "animations": {"run": [0, 1, 2, 3, 4, 5], "jump": [6], "fall": [7], "hurt": [8], "win": [9], "double": [10, 11], "glide": [12, 13], "cling": [14], "pounce": [15], "dash": [16, 17]}}}

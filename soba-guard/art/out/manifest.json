@@ -1,0 +1,251 @@
+{
+  "soba": {
+    "file": "soba.png",
+    "frameWidth": 40,
+    "frameHeight": 40,
+    "frames": 10,
+    "animations": {
+      "idle": [
+        0,
+        1
+      ],
+      "bark": [
+        2,
+        3
+      ],
+      "run": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "cheer": [
+        8
+      ],
+      "sad": [
+        9
+      ]
+    }
+  },
+  "luckycat": {
+    "file": "luckycat.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 3,
+    "animations": {
+      "idle": [
+        0,
+        1
+      ],
+      "action": [
+        2
+      ]
+    }
+  },
+  "steamer": {
+    "file": "steamer.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 3,
+    "animations": {
+      "idle": [
+        0,
+        1
+      ],
+      "action": [
+        2
+      ]
+    }
+  },
+  "chili": {
+    "file": "chili.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 3,
+    "animations": {
+      "idle": [
+        0,
+        1
+      ],
+      "action": [
+        2
+      ]
+    }
+  },
+  "onigiri": {
+    "file": "onigiri.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 3,
+    "animations": {
+      "full": [
+        0
+      ],
+      "bitten": [
+        1
+      ],
+      "crumbling": [
+        2
+      ]
+    }
+  },
+  "rat": {
+    "file": "rat.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 4,
+    "animations": {
+      "walk": [
+        0,
+        1
+      ],
+      "bite": [
+        2,
+        3
+      ]
+    }
+  },
+  "lidrat": {
+    "file": "lidrat.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 4,
+    "animations": {
+      "walk": [
+        0,
+        1
+      ],
+      "bite": [
+        2,
+        3
+      ]
+    }
+  },
+  "crow": {
+    "file": "crow.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 4,
+    "animations": {
+      "walk": [
+        0,
+        1
+      ],
+      "bite": [
+        2,
+        3
+      ]
+    }
+  },
+  "tanuki": {
+    "file": "tanuki.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 4,
+    "animations": {
+      "walk": [
+        0,
+        1
+      ],
+      "bite": [
+        2,
+        3
+      ]
+    }
+  },
+  "fox": {
+    "file": "fox.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 4,
+    "animations": {
+      "walk": [
+        0,
+        1
+      ],
+      "bite": [
+        2,
+        3
+      ]
+    }
+  },
+  "scooter": {
+    "file": "scooter.png",
+    "frameWidth": 32,
+    "frameHeight": 24,
+    "frames": 2,
+    "animations": {
+      "ride": [
+        0,
+        1
+      ]
+    }
+  },
+  "items": {
+    "file": "items.png",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "frames": 8,
+    "animations": {
+      "coin": [
+        0
+      ],
+      "dumpling": [
+        1
+      ],
+      "lid": [
+        2
+      ],
+      "ember": [
+        3
+      ],
+      "feather": [
+        4
+      ],
+      "stonepuff": [
+        5
+      ],
+      "bone": [
+        6
+      ],
+      "star": [
+        7
+      ]
+    }
+  },
+  "tiles": {
+    "file": "tiles.png",
+    "frameWidth": 40,
+    "frameHeight": 40,
+    "frames": 4,
+    "animations": {
+      "grassLight": [
+        0
+      ],
+      "grassDark": [
+        1
+      ],
+      "porch": [
+        2
+      ],
+      "alley": [
+        3
+      ]
+    }
+  },
+  "house": {
+    "file": "house.png",
+    "width": 72,
+    "height": 248
+  },
+  "alley": {
+    "file": "alley.png",
+    "width": 168,
+    "height": 248
+  },
+  "title": {
+    "file": "title.png",
+    "width": 320,
+    "height": 120
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "_comment": "Backyard Brawl QA run. URL: http://localhost:3002/?hp=3&seed=1 (debug run: never writes the save; the fixed seed makes all 3 iterations identical, since about 0.7 % of random seeds survive this script with 3 HP). The game steps exactly 1/60 s per scripted frame (window.advanceTime test clock in main.js). Start from the title with Enter, Enter (Title -> Weapon Select -> Arena; from Results the first Enter replays), walk a square so bark kills a few cats (score > 0), then stand still (tapping 1 every 100 frames picks the first card if a level-up is open): with 3 HP the cats knock Booker out (death beat 1.1 s) -> Results (mode game_over). 1483 frames per iteration.",
+  "steps": [
+    {
+      "_comment": "Title (or Results) settles",
+      "buttons": [],
+      "frames": 20
+    },
+    {
+      "_comment": "Enter: Title -> Weapon Select (from Results: Play Again -> Arena)",
+      "buttons": [
+        "enter"
+      ],
+      "frames": 3
+    },
+    {
+      "_comment": "Weapon Select settles (menus ignore keys for 120 ms after opening)",
+      "buttons": [],
+      "frames": 12
+    },
+    {
+      "_comment": "Enter: Start (bark) -> Arena. From Results this Enter lands in the Arena and does nothing",
+      "buttons": [
+        "enter"
+      ],
+      "frames": 3
+    },
+    {
+      "_comment": "Walk a square; bark auto-fires",
+      "buttons": [
+        "right"
+      ],
+      "frames": 90
+    },
+    {
+      "buttons": [
+        "down"
+      ],
+      "frames": 90
+    },
+    {
+      "buttons": [
+        "left"
+      ],
+      "frames": 120
+    },
+    {
+      "buttons": [
+        "up"
+      ],
+      "frames": 90
+    },
+    {
+      "buttons": [
+        "Digit1"
+      ],
+      "frames": 1,
+      "_comment": "Stand still until knocked out -> Results; Digit1 picks card 1 if a level-up is open"
+    },
+    {
+      "buttons": [],
+      "frames": 99
+    },
+    {
+      "buttons": [
+        "Digit1"
+      ],
+      "frames": 1
+    },
+    {
+      "buttons": [],
+      "frames": 99
+    },
+    {
+      "buttons": [
+        "Digit1"
+      ],
+      "frames": 1
+    },
+    {
+      "buttons": [],
+      "frames": 99
+    },
+    {
+      "buttons": [
+        "Digit1"
+      ],
+      "frames": 1
+    },
+    {
+      "buttons": [],
+      "frames": 99
+    },
+    {
+      "buttons": [
+        "Digit1"
+      ],
+      "frames": 1
+    },
+    {
+      "buttons": [],
+      "frames": 99
+    },
+    {
+      "buttons": [
+        "Digit1"
+      ],
+      "frames": 1
+    },
+    {
+      "buttons": [],
+      "frames": 99
+    },
+    {
+      "buttons": [
+        "Digit1"
+      ],
+      "frames": 1
+    },
+    {
+      "buttons": [],
+      "frames": 99
+    },
+    {
+      "buttons": [
+        "Digit1"
+      ],
+      "frames": 1
+    },
+    {
+      "buttons": [],
+      "frames": 99
+    },
+    {
+      "buttons": [
+        "Digit1"
+      ],
+      "frames": 1
+    },
+    {
+      "buttons": [],
+      "frames": 99
+    },
+    {
+      "buttons": [
+        "Digit1"
+      ],
+      "frames": 1
+    },
+    {
+      "buttons": [],
+      "frames": 99
+    },
+    {
+      "_comment": "Results settles",
+      "buttons": [],
+      "frames": 60
+    }
+  ]
+}

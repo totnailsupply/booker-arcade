@@ -1,0 +1,2 @@
+[spend] this call: 0.0148  running total: $0.0963
+{"files": ["/Users/tommytu/fun-projects/booker_arcade/lucky-paw-casino/art/drafts/soba_nervous_d1.png"], "model": "openai/gpt-image-2.5-sunburst", "served_by": "OpenAI", "cost_usd": 0.014757, "generation_id": "gen-img-1791991407-Kl9ucFFvScCMAZpFzzNm"}

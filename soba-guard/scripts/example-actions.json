@@ -1,0 +1,51 @@
+{
+  "about": "Soba Guard iterate script. Use with ?skip=1&wave=10&coins=300. Enter is a no-op in battle (it retries from the Results screen), then: 2 = steamer card, cursor 2 left to column 0 of the middle row, Space places it. The steamer scores kills in its row; the other rows are unguarded (no bark/zoomies used), so the final wave's crows and the last push reach the door after the scooters are spent -> mode game_over (debug seed 20261014: lost at t 58.6 s, score 255, 19 kills). 5400 frames total; the run ends early and the extra frames idle on the Results screen.",
+  "steps": [
+    {
+      "buttons": [
+        "enter"
+      ],
+      "frames": 2
+    },
+    {
+      "buttons": [],
+      "frames": 30
+    },
+    {
+      "buttons": [
+        "2"
+      ],
+      "frames": 2
+    },
+    {
+      "buttons": [
+        "left"
+      ],
+      "frames": 2
+    },
+    {
+      "buttons": [
+        "left"
+      ],
+      "frames": 2
+    },
+    {
+      "buttons": [
+        "space"
+      ],
+      "frames": 2
+    },
+    {
+      "buttons": [],
+      "frames": 1800
+    },
+    {
+      "buttons": [],
+      "frames": 1800
+    },
+    {
+      "buttons": [],
+      "frames": 1760
+    }
+  ]
+}

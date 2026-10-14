@@ -1,0 +1,18 @@
+# Soba Guard art: generation calls (prompt texts are the variables in drafts/prompts.sh)
+# All calls via scripts/gen.sh (costs in ../spend.md). Model openai/gpt-image-2.5-sunburst unless noted.
+soba_low    : P_SOBA, low, 3:2, background=transparent, -r ref_hero_white.png -r ref_soba_sheet6x.png
+def_low     : P_DEF, low, 3:4, transparent
+enemy_low   : P_ENEMY, low, 3:4, transparent
+items_low   : P_ITEMS, low, 1:1, transparent
+tiles_low   : P_TILES, low, 1:1, opaque           (superseded: paver off-centre, noisy grass)
+house_low   : P_HOUSE, low, 9:16, opaque          (superseded: too wide for the 72x248 slot)
+alley_low   : P_ALLEY, low, 2:3, opaque           (superseded: wall face, enemies need ground)
+house2_low  : P_HOUSE2, low, 9:16, transparent    -> house (FINAL)
+alley2_low  : P_ALLEY2, low, 2:3, opaque          -> alley (FINAL)
+title_1k    : P_TITLE, google/gemini-3-pro-image 1K 21:9, -r ref_hero_white.png -> title (FINAL)
+soba_med    : P_SOBA_MED, medium, 3:2, transparent, -r soba_low.png -r ref_hero_white.png -r ref_soba_sheet6x.png -> soba (FINAL)
+def_med     : P_DEF_MED, medium, 3:4, transparent, -r def_low.png -> luckycat/steamer/chili/onigiri (FINAL)
+enemy_med   : P_ENEMY_MED, medium, 3:4, transparent, -r enemy_low.png -> rat/lidrat/crow/tanuki/fox (FINAL)
+items_med   : P_ITEMS_MED, medium, 1:1, transparent, -r items_low.png -> items + scooter (FINAL)
+tiles2_low  : P_TILES2, low, 1:1, opaque -> tiles (FINAL; paver re-centred and lawn made seamless in build_assets.py)
+# ref_hero_white.png = raw/hero_low-1.png on white; ref_soba_sheet6x.png = raw/soba_tower_sheet.png 6x nearest on white, 4x3 grid

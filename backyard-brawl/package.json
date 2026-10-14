@@ -1,0 +1,21 @@
+{
+  "name": "backyard-brawl",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "verify": "node scripts/verify-runtime.mjs",
+    "validate": "node scripts/validate-architecture.mjs",
+    "iterate": "node scripts/iterate-client.js --url 'http://localhost:3002/?hp=3&seed=1' --actions-file scripts/example-actions.json --iterations 3 --screenshot-dir output/iterate",
+    "sim": "node scripts/sim-run.mjs"
+  },
+  "dependencies": {
+    "phaser": "^4.2.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "vite": "^7.3.1"
+  }
+}

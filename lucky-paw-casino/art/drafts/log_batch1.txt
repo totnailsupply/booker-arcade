@@ -1,0 +1,20 @@
+[spend] this call: 0.0130  running total: $0.1093
+{"files": ["/Users/tommytu/fun-projects/booker_arcade/lucky-paw-casino/art/drafts/bg_craps_d1.png"], "model": "openai/gpt-image-2", "served_by": "OpenAI", "cost_usd": 0.012954, "generation_id": "gen-img-1791991496-T6qszw5eXNRYFPuDzY9x"}
+[spend] this call: 0.0129  running total: $0.1222
+{"files": ["/Users/tommytu/fun-projects/booker_arcade/lucky-paw-casino/art/drafts/bg_blackjack_d1.png"], "model": "openai/gpt-image-2", "served_by": "OpenAI", "cost_usd": 0.012939, "generation_id": "gen-img-1791991495-lQVHQdDAcz3CUUHl9HEJ"}
+[spend] this call: 0.0127  running total: $0.1349
+{"files": ["/Users/tommytu/fun-projects/booker_arcade/lucky-paw-casino/art/drafts/bg_slots_d1.png"], "model": "openai/gpt-image-2", "served_by": "OpenAI", "cost_usd": 0.012724, "generation_id": "gen-img-1791991494-5Pfazf5XMD1VR9LqCGYZ"}
+[spend] this call: 0.0128  running total: $0.1477
+{"files": ["/Users/tommytu/fun-projects/booker_arcade/lucky-paw-casino/art/drafts/bg_lobby_d1.png"], "model": "openai/gpt-image-2", "served_by": "OpenAI", "cost_usd": 0.012839, "generation_id": "gen-img-1791991494-71HtqQtohlzn1FqZ8RsP"}
+[spend] this call: 0.0127  running total: $0.1604
+{"files": ["/Users/tommytu/fun-projects/booker_arcade/lucky-paw-casino/art/drafts/bg_plinko_d1.png"], "model": "openai/gpt-image-2", "served_by": "OpenAI", "cost_usd": 0.012709, "generation_id": "gen-img-1791991494-IPKwVPfFYn9iI4zriW2I"}
+[spend] this call: 0.0130  running total: $0.1734
+{"files": ["/Users/tommytu/fun-projects/booker_arcade/lucky-paw-casino/art/drafts/bg_roulette_d1.png"], "model": "openai/gpt-image-2", "served_by": "OpenAI", "cost_usd": 0.012954, "generation_id": "gen-img-1791991495-RaRQhj0ERWvYL691y2WI"}
+[spend] this call: 0.1359  running total: $0.3093
+{"files": ["/Users/tommytu/fun-projects/booker_arcade/lucky-paw-casino/art/drafts/logo_d1.png"], "model": "google/gemini-3-pro-image", "served_by": "Google", "cost_usd": 0.135934, "generation_id": "gen-img-1791991494-lYgK8iincbSiSG0u8UKo"}
+[spend] this call: 0.0219  running total: $0.3312
+{"files": ["/Users/tommytu/fun-projects/booker_arcade/lucky-paw-casino/art/drafts/symbols_d1.png"], "model": "openai/gpt-image-2.5-sunburst", "served_by": "OpenAI", "cost_usd": 0.021883, "generation_id": "gen-img-1791991494-XBY3TKsapfCDyK5SUHFF"}
+[spend] this call: 0.0162  running total: $0.3474
+{"files": ["/Users/tommytu/fun-projects/booker_arcade/lucky-paw-casino/art/drafts/duo_d1.png"], "model": "openai/gpt-image-2.5-sunburst", "served_by": "OpenAI", "cost_usd": 0.016245, "generation_id": "gen-img-1791991494-UVHvUWjzfLKKSVlRgHnM"}
+[spend] this call: 0.0113  running total: $0.3587
+{"files": ["/Users/tommytu/fun-projects/booker_arcade/lucky-paw-casino/art/drafts/icons_d1.png"], "model": "openai/gpt-image-2.5-sunburst", "served_by": "OpenAI", "cost_usd": 0.011283, "generation_id": "gen-img-1791991494-YGkwAJOTzpgsFsXJBbtW"}

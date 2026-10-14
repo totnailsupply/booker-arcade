@@ -1,0 +1,13 @@
+# Dependencies and build output
+node_modules/
+dist/
+_site/
+
+# QA screenshots, logs, and snapshots from the check scripts
+output/
+.snapshots/
+
+# Local machine files
+.DS_Store
+.claude/settings.local.json
+*.log

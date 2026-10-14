@@ -1,0 +1,405 @@
+{
+  "booker": {
+    "file": "booker.png",
+    "frameWidth": 48,
+    "frameHeight": 36,
+    "frames": 18,
+    "animations": {
+      "run": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "jump": [
+        6
+      ],
+      "fall": [
+        7
+      ],
+      "hurt": [
+        8
+      ],
+      "win": [
+        9
+      ],
+      "double": [
+        10,
+        11
+      ],
+      "glide": [
+        12,
+        13
+      ],
+      "cling": [
+        14
+      ],
+      "pounce": [
+        15
+      ],
+      "dash": [
+        16,
+        17
+      ]
+    }
+  },
+  "cone": {
+    "file": "cone.png",
+    "width": 16,
+    "height": 20
+  },
+  "crate": {
+    "file": "crate.png",
+    "width": 24,
+    "height": 24
+  },
+  "pallets": {
+    "file": "pallets.png",
+    "width": 24,
+    "height": 48
+  },
+  "barrel": {
+    "file": "barrel.png",
+    "width": 20,
+    "height": 20
+  },
+  "bone": {
+    "file": "bone.png",
+    "width": 16,
+    "height": 8
+  },
+  "steak": {
+    "file": "steak.png",
+    "width": 40,
+    "height": 28
+  },
+  "bg-far": {
+    "file": "bg-far.png",
+    "width": 480,
+    "height": 270
+  },
+  "bg-mid": {
+    "file": "bg-mid.png",
+    "width": 480,
+    "height": 270
+  },
+  "bg-near": {
+    "file": "bg-near.png",
+    "width": 480,
+    "height": 270
+  },
+  "ground": {
+    "file": "ground.png",
+    "width": 32,
+    "height": 32
+  },
+  "title": {
+    "file": "title.png",
+    "width": 480,
+    "height": 270
+  },
+  "ui-icons": {
+    "file": "ui-icons.png",
+    "width": 240,
+    "height": 24,
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 10
+  },
+  "l4-bg-far": {
+    "file": "l4-bg-far.png",
+    "width": 480,
+    "height": 270
+  },
+  "l4-bg-mid": {
+    "file": "l4-bg-mid.png",
+    "width": 480,
+    "height": 270
+  },
+  "l4-bg-near": {
+    "file": "l4-bg-near.png",
+    "width": 480,
+    "height": 270
+  },
+  "l4-ground": {
+    "file": "l4-ground.png",
+    "width": 32,
+    "height": 32
+  },
+  "l4-pit": {
+    "file": "l4-pit.png",
+    "width": 32,
+    "height": 32
+  },
+  "l4-platform": {
+    "file": "l4-platform.png",
+    "width": 32,
+    "height": 16
+  },
+  "l4-wall": {
+    "file": "l4-wall.png",
+    "width": 32,
+    "height": 32
+  },
+  "l4-gear": {
+    "file": "l4-gear.png",
+    "width": 24,
+    "height": 24
+  },
+  "l4-crate": {
+    "file": "l4-crate.png",
+    "width": 24,
+    "height": 24
+  },
+  "l4-steam-vent": {
+    "file": "l4-steam-vent.png",
+    "width": 16,
+    "height": 8
+  },
+  "l2-bg-far": {
+    "file": "l2-bg-far.png",
+    "width": 480,
+    "height": 270
+  },
+  "l2-bg-mid": {
+    "file": "l2-bg-mid.png",
+    "width": 480,
+    "height": 270
+  },
+  "l2-bg-near": {
+    "file": "l2-bg-near.png",
+    "width": 480,
+    "height": 270
+  },
+  "l2-ground": {
+    "file": "l2-ground.png",
+    "width": 32,
+    "height": 32
+  },
+  "l2-pit": {
+    "file": "l2-pit.png",
+    "width": 32,
+    "height": 32
+  },
+  "l2-platform": {
+    "file": "l2-platform.png",
+    "width": 32,
+    "height": 16
+  },
+  "l2-bollard": {
+    "file": "l2-bollard.png",
+    "width": 16,
+    "height": 20
+  },
+  "l2-tires": {
+    "file": "l2-tires.png",
+    "width": 24,
+    "height": 32
+  },
+  "l2-crab": {
+    "file": "l2-crab.png",
+    "width": 20,
+    "height": 12
+  },
+  "l3-bg-far": {
+    "file": "l3-bg-far.png",
+    "width": 480,
+    "height": 270
+  },
+  "l3-bg-mid": {
+    "file": "l3-bg-mid.png",
+    "width": 480,
+    "height": 270
+  },
+  "l3-bg-near": {
+    "file": "l3-bg-near.png",
+    "width": 480,
+    "height": 270
+  },
+  "l3-ground": {
+    "file": "l3-ground.png",
+    "width": 32,
+    "height": 32
+  },
+  "l3-pit": {
+    "file": "l3-pit.png",
+    "width": 32,
+    "height": 32
+  },
+  "l3-platform": {
+    "file": "l3-platform.png",
+    "width": 32,
+    "height": 16
+  },
+  "l3-acunit": {
+    "file": "l3-acunit.png",
+    "width": 28,
+    "height": 24
+  },
+  "l3-antenna": {
+    "file": "l3-antenna.png",
+    "width": 12,
+    "height": 48
+  },
+  "l3-pigeon": {
+    "file": "l3-pigeon.png",
+    "width": 32,
+    "height": 12,
+    "frameWidth": 16,
+    "frameHeight": 12,
+    "frames": 2
+  },
+  "l3-vent": {
+    "file": "l3-vent.png",
+    "width": 32,
+    "height": 16
+  },
+  "menu-bg": {
+    "file": "menu-bg.png",
+    "width": 480,
+    "height": 270
+  },
+  "thumb-l1": {
+    "file": "thumb-l1.png",
+    "width": 128,
+    "height": 72
+  },
+  "thumb-l2": {
+    "file": "thumb-l2.png",
+    "width": 128,
+    "height": 72
+  },
+  "thumb-l3": {
+    "file": "thumb-l3.png",
+    "width": 128,
+    "height": 72
+  },
+  "l5-bg-far": {
+    "file": "l5-bg-far.png",
+    "width": 480,
+    "height": 270
+  },
+  "l5-bg-mid": {
+    "file": "l5-bg-mid.png",
+    "width": 480,
+    "height": 270
+  },
+  "l5-bg-near": {
+    "file": "l5-bg-near.png",
+    "width": 480,
+    "height": 270
+  },
+  "l5-ground": {
+    "file": "l5-ground.png",
+    "width": 32,
+    "height": 32
+  },
+  "l5-pit": {
+    "file": "l5-pit.png",
+    "width": 32,
+    "height": 32
+  },
+  "l5-platform": {
+    "file": "l5-platform.png",
+    "width": 32,
+    "height": 16
+  },
+  "l5-vacuum": {
+    "file": "l5-vacuum.png",
+    "width": 48,
+    "height": 16,
+    "frameWidth": 24,
+    "frameHeight": 16,
+    "frames": 2
+  },
+  "l5-drone": {
+    "file": "l5-drone.png",
+    "width": 48,
+    "height": 16,
+    "frameWidth": 24,
+    "frameHeight": 16,
+    "frames": 2
+  },
+  "l5-cart": {
+    "file": "l5-cart.png",
+    "width": 32,
+    "height": 28
+  },
+  "l5-hydrant": {
+    "file": "l5-hydrant.png",
+    "width": 14,
+    "height": 20
+  },
+  "l6-bg-far": {
+    "file": "l6-bg-far.png",
+    "width": 480,
+    "height": 270
+  },
+  "l6-bg-mid": {
+    "file": "l6-bg-mid.png",
+    "width": 480,
+    "height": 270
+  },
+  "l6-bg-near": {
+    "file": "l6-bg-near.png",
+    "width": 480,
+    "height": 270
+  },
+  "l6-ground": {
+    "file": "l6-ground.png",
+    "width": 32,
+    "height": 32
+  },
+  "l6-pit": {
+    "file": "l6-pit.png",
+    "width": 32,
+    "height": 32
+  },
+  "l6-platform": {
+    "file": "l6-platform.png",
+    "width": 32,
+    "height": 16
+  },
+  "l6-boxes": {
+    "file": "l6-boxes.png",
+    "width": 24,
+    "height": 48
+  },
+  "l6-gate": {
+    "file": "l6-gate.png",
+    "width": 16,
+    "height": 56
+  },
+  "l6-grill": {
+    "file": "l6-grill.png",
+    "width": 32,
+    "height": 24
+  },
+  "l6-trashcan": {
+    "file": "l6-trashcan.png",
+    "width": 20,
+    "height": 28
+  },
+  "golden-steak": {
+    "file": "golden-steak.png",
+    "width": 48,
+    "height": 36
+  },
+  "thumb-l4": {
+    "file": "thumb-l4.png",
+    "width": 128,
+    "height": 72
+  },
+  "thumb-l5": {
+    "file": "thumb-l5.png",
+    "width": 128,
+    "height": 72
+  },
+  "thumb-l6": {
+    "file": "thumb-l6.png",
+    "width": 128,
+    "height": 72
+  }
+}

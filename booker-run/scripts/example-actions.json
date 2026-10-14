@@ -1,0 +1,70 @@
+{
+  "_comment": "Booker Run: title -> level select (Space) -> Level 1 (Space), a few jumps (tap and held), then idle so Booker hits an obstacle; the game-over overlay retries on its own. 60 fps frames; ~330 frames total.",
+  "steps": [
+    {
+      "_comment": "Title screen settles",
+      "buttons": [],
+      "frames": 20
+    },
+    {
+      "_comment": "Space opens the level select",
+      "buttons": [
+        "space"
+      ],
+      "frames": 3
+    },
+    {
+      "_comment": "Level select fades in",
+      "buttons": [],
+      "frames": 25
+    },
+    {
+      "_comment": "Space starts Level 1 (selected)",
+      "buttons": [
+        "space"
+      ],
+      "frames": 3
+    },
+    {
+      "_comment": "Fade in, Booker running",
+      "buttons": [],
+      "frames": 30
+    },
+    {
+      "_comment": "Tap jump (short hop)",
+      "buttons": [
+        "space"
+      ],
+      "frames": 4
+    },
+    {
+      "_comment": "Land",
+      "buttons": [],
+      "frames": 40
+    },
+    {
+      "_comment": "Held jump (full height)",
+      "buttons": [
+        "space"
+      ],
+      "frames": 24
+    },
+    {
+      "_comment": "Land",
+      "buttons": [],
+      "frames": 30
+    },
+    {
+      "_comment": "ArrowUp also jumps",
+      "buttons": [
+        "up"
+      ],
+      "frames": 6
+    },
+    {
+      "_comment": "Long idle: the first cone at x=600 reaches Booker, he dies, the game-over overlay shows and stays up",
+      "buttons": [],
+      "frames": 160
+    }
+  ]
+}

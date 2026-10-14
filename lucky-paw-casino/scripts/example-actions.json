@@ -1,0 +1,18 @@
+{
+  "_comment": "Lucky Paw Casino smoke run: lobby -> Slots -> three spins -> lobby. Use URL http://localhost:3004 (add ?fresh=1&seed=7 for a fresh, seeded run). Every scripted frame is one 1/60 s game step (window.advanceTime test clock in main.js). Each iteration starts and ends in the lobby, so --iterations N plays 3N spins; render_game_to_text().balance changes with every spin (10 chips a spin, wins paid back) and stats.games.slots.rounds counts them.",
+  "steps": [
+    { "_comment": "Lobby settles (cards slide in)", "buttons": [], "frames": 40 },
+    { "_comment": "5 = Slots", "buttons": ["Digit5"], "frames": 2 },
+    { "_comment": "Fade out, Slots fades in", "buttons": [], "frames": 50 },
+    { "_comment": "Space = spin 1 (10 lines x 1)", "buttons": ["space"], "frames": 2 },
+    { "_comment": "Reels stop, win (if any) counts up", "buttons": [], "frames": 240 },
+    { "_comment": "Space = spin 2", "buttons": ["space"], "frames": 2 },
+    { "_comment": "Reels stop", "buttons": [], "frames": 240 },
+    { "_comment": "Space = spin 3", "buttons": ["space"], "frames": 2 },
+    { "_comment": "Reels stop", "buttons": [], "frames": 240 },
+    { "_comment": "Click skips a win banner if one is up (centre of the screen is the reels: harmless)", "buttons": ["left_mouse_button"], "frames": 2 },
+    { "_comment": "Banner fades", "buttons": [], "frames": 30 },
+    { "_comment": "Esc = back to the lobby", "buttons": ["escape"], "frames": 2 },
+    { "_comment": "Lobby fades in", "buttons": [], "frames": 50 }
+  ]
+}
